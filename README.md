@@ -8,7 +8,9 @@ A Quadcopter is a helicopter with four rotors. A rotor is the main rotating part
 
 There are three dimensions in which a flying object can move through: pitch, yaw, and roll.
 
+<p align="center">
 <img src="axis.png" width="500px" height="500px" align="center">
+</p>
 
 Pitch refers to moving the nose of an aircraft up and down.
 Yaw refers to moving the nose of an aircraft left and right.
