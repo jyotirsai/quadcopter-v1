@@ -19,7 +19,7 @@ Roll refers to tilting (rolling) an aircraft side to side.
 In order to produce lift and propulsion, a rotor must produce thrust and torque about its (the individual rotors) center of rotation. Gravity as well as a drag force will act upon the quadcopter and will have to be overcome by the rotors in order to propel the machine. 
 
 <p align="center">
-<img src="rotors.png" width="500px" height="500px">
+<img src="rotors.png" width="250px" height="250px">
 </p>
 
 The above figure shows the direction of rotation of the four rotors. In a quadcopter, pairs of rotors will rotate in opposing directions in order to cancel out any unwanted rotational force. If all four rotors were to spin in one direction, let’s say the clockwise direction, then this would generate a non zero rotational force and would thus cause the quadcopter to spin clockwise about its yaw axis. 
@@ -31,5 +31,5 @@ To adjust the yaw (move aircraft left and right), more thrust would be applied t
 In order to create a pitch or roll adjustment, more thrust must be applied to a single rotor while simultaneously reducing the amount of thrust sent to the rotor that is diametrically opposite. The quadcopter will dive or tilt in the direction of the rotor that receives less thrust. 
 
 <p align="center">
-<img src="quadrotor-pitch.png" width="500px" height="500px">
+<img src="quadrotor-pitch.png" width="250px" height="250px">
 </p>
