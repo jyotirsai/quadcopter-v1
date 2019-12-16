@@ -74,8 +74,24 @@ In a brushless DC motor, the permanent magnets are on the rotor and the electrom
 
 An identifying feature of a brushless motor is if you see three wires coming out.
 
-The size of a brushless motor is identified by a four-digit code that described the dimensions of the stator in mm. 
+The size of a brushless motor is identified by a four-digit code that describes the dimensions of the stator in mm. 
 
 <p align="center">
 <img src="brushless-motor.png" width="600px" height="300px">
 </p>
+
+
+
+# Propellers
+
+Lightweight and fast quadcopters should have high Kv motors with small propellers. Heavyweight quadcopters should have low Kv motors with large propellers. The higher the Kv rating, the smaller the propeller diameter. 
+
+Smaller propellers allow for quicker flight but reduces efficiency. Large propellers allow for steadier flight, lifts more weight, and uses more power.
+
+Propellers are usually defined by two sizes “500 x 200 mm”, the first size indicates the diameter of the propeller and the second size (called pitch) indicates the linear travel distance in a single rotation.
+
+Higher pitch means a slower rotation which increases speed and uses more power.
+
+Lower pitch propellers can generate more torque and your motors will consume less current.
+
+Propeller size is linked to thrust, responsiveness, and the amount of control the quadcopter will have in the air.
