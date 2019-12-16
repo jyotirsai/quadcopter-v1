@@ -146,5 +146,5 @@ Betaflight is the most common firmware used to manage and configure the flight c
 The flight controller is mounted to the frame with four equally spaced mounting holes.
 
 <p align="center">
-<img src="flightcontroller.png" width="500px" height="250px">
+<img src="flightcontroller.png" width="300px" height="250px">
 </p>
