@@ -38,6 +38,8 @@ In order to create a pitch or roll adjustment, more thrust must be applied to a 
 <img src="quadrotor-pitch.png" width="250px" height="250px">
 </p>
 
+
+
 # Mechanical Components
 
 In a quadcopter, the main mechanical component is the frame. The frame is responsible for mounting and connecting all the components together. Frames differ in shapes, dimensions, and materials. A stiff frame is ideal for flight since this reduces warping and bending. The stiff material must not be too brittle since this can cause easier breakages during crashes. The frame must also be light in order to reduce the needed thrust. Heavier frames will need stronger motors. The material should also be able to minimize vibrations as this can damage electrical components. The frame can be broken down into the following: Centre plate, four arms, four motor brackets.
@@ -58,6 +60,8 @@ Common materials used for frames:
 
 The size of a frame is usually measured as the longest distance from motor to motor in mm. Frames less than 150 mm are micro frames. 
 
+
+
 # Motors
 
 <p align="center">
@@ -73,5 +77,5 @@ An identifying feature of a brushless motor is if you see three wires coming out
 The size of a brushless motor is identified by a four-digit code that described the dimensions of the stator in mm. 
 
 <p align="center">
-<img src="brushless-motor.png" width="250px" height="250px">
+<img src="brushless-motor.png" width="600px" height="300px">
 </p>
