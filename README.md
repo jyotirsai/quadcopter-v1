@@ -95,3 +95,32 @@ Higher pitch means a slower rotation which increases speed and uses more power.
 Lower pitch propellers can generate more torque and your motors will consume less current.
 
 Propeller size is linked to thrust, responsiveness, and the amount of control the quadcopter will have in the air.
+
+
+
+# Electronic Speed Controller Circuits (ESCs)
+
+These are circuits that control a motors speed, direction, and braking. The circuits offer high AC power to the motors.
+
+These are needed for each motor.
+
+ESCs interpret signals and regulate the variation of motor speed.
+
+ESCs regulate the amount of power that goes to the motor. ESC’s apply voltage to a motor. They turn the motor on and off to create a ratio of on and off time. This varies the average voltage induced onto the motor. The switching is controlled by a microprocessor and carried out by transistors called MOSFETs or FETs.
+
+A brushless ESC is used to connect to a brushless motor, they provide superior performance to the brushed ESCs.
+
+ESC’s have three wires that connect to the three wires on the brushless motor. Two other wires connect to the power distribution board. Three smaller wires connect to the flight controller. The ESC should be able to handle the maximum current that your motors use.
+
+Some features:
+<ul>
+  <li>Brake - Used to force the motor to stop turning once ESC stops delivering power</li>
+  <li>Soft Start - Indicates that the control will go from off to full throttle slowly and not instantaneously</li>
+  <li>Automatic Cut-off - Power is cut from the motors when battery is low and is reserved for radio signals</li>
+</ul>
+
+Most ESC’s are controlled by onboard 32-bit processors running firmware called BLHeli_32 or KISS. 32 bit ESC’s can communicate with faster digital protocols and are capable of things like controlling LEDs, changing motor direction, and telemetry data.
+
+<p align="center">
+<img src="ESC.png" width="500px" height="250px">
+</p>
