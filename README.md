@@ -231,18 +231,21 @@ https://dronebotworkshop.com/drone-index/
 
 Some explanation on quadcopter dynamics and parts. 
 
+<ul>
 http://dronenodes.com/how-to-build-a-drone/
 https://fpvfrenzy.com/build-a-quadcopter/
 https://en.wikipedia.org/wiki/Quadcopter
 http://andrew.gibiansky.com/blog/physics/quadcopter-dynamics/
 https://en.wikipedia.org/wiki/PID_controller
-
+</ul>
 
 # Online Guides
 
+<ul>
 https://myfirstdrone.com/blog/build-your-first-drone-mounting-the-electronics
 https://oscarliang.com/build-racing-drone-fpv-quadcopter/
 https://www.getfpv.com/learn/new-to-fpv-beginner/
 https://www.youtube.com/watch?v=K05UwsiqZ_E
 https://www.youtube.com/watch?v=kQ9FvNB9sNA
 https://www.youtube.com/watch?v=TOfY590X4OY
+</ul>
