@@ -227,12 +227,9 @@ Oscar Liang - https://oscarliang.com/
 
 Oscar's website includes very detailed and up to date information on how to build a quadcopter, how to choose parts, and some common tips and tricks. Great resource for any drone enthusiasts and would highly recommend.
 
-https://dronebotworkshop.com/drone-index/
-
-Some explanation on quadcopter dynamics and parts. 
-
 <ul>
   <li>http://dronenodes.com/how-to-build-a-drone/</li>
+  <li>https://dronebotworkshop.com/drone-index/</li>
   <li>https://fpvfrenzy.com/build-a-quadcopter/</li>
   <li>https://en.wikipedia.org/wiki/Quadcopter</li>
   <li>http://andrew.gibiansky.com/blog/physics/quadcopter-dynamics/</li>
