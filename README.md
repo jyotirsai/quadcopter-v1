@@ -33,3 +33,11 @@ In order to create a pitch or roll adjustment, more thrust must be applied to a 
 <p align="center">
 <img src="quadrotor-pitch.png" width="250px" height="250px">
 </p>
+
+# Mechanical Components
+
+In a quadcopter, the main mechanical component is the frame. The frame is responsible for mounting and connecting all the components together. Frames differ in shapes, dimensions, and materials. A stiff frame is ideal for flight since this reduces warping and bending. The stiff material must not be too brittle since this can cause easier breakages during crashes. The frame must also be light in order to reduce the needed thrust. Heavier frames will need stronger motors. The material should also be able to minimize vibrations as this can damage electrical components. The frame can be broken down into the following: Centre plate, four arms, four motor brackets.
+
+The centre plate is where all of the electrical components are placed.
+The four arms connect to the centre plate (some components can be placed here too).
+The four motor brackets hold the motors on the arms. 
