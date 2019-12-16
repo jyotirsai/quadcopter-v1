@@ -12,10 +12,10 @@ There are three dimensions in which a flying object can move through: pitch, yaw
 <img src="axis.png" width="500px" height="500px" align="center">
 </p>
 
-<ul>
-  <li>Pitch refers to moving the nose of an aircraft up and down.</li>
-  <li>Yaw refers to moving the nose of an aircraft left and right.</li>
-  <li>Roll refers to tilting (rolling) an aircraft side to side.</li>
+<ul align="center">
+  <li><strong>Pitch</strong> refers to moving the nose of an aircraft up and down.</li>
+  <li><strong>Yaw</strong> refers to moving the nose of an aircraft left and right.</li>
+  <li><strong>Roll</strong> refers to tilting (rolling) an aircraft side to side.</li>
 </ul>
 
 In order to produce lift and propulsion, a rotor must produce thrust and torque about its (the individual rotors) center of rotation. Gravity as well as a drag force will act upon the quadcopter and will have to be overcome by the rotors in order to propel the machine. 
