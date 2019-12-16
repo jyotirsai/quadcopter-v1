@@ -12,9 +12,11 @@ There are three dimensions in which a flying object can move through: pitch, yaw
 <img src="axis.png" width="500px" height="500px" align="center">
 </p>
 
-Pitch refers to moving the nose of an aircraft up and down.
-Yaw refers to moving the nose of an aircraft left and right.
-Roll refers to tilting (rolling) an aircraft side to side.
+<ul>
+  <li>Pitch refers to moving the nose of an aircraft up and down.</li>
+  <li>Yaw refers to moving the nose of an aircraft left and right.</li>
+  <li>Roll refers to tilting (rolling) an aircraft side to side.</li>
+</ul>
 
 In order to produce lift and propulsion, a rotor must produce thrust and torque about its (the individual rotors) center of rotation. Gravity as well as a drag force will act upon the quadcopter and will have to be overcome by the rotors in order to propel the machine. 
 
@@ -38,9 +40,11 @@ In order to create a pitch or roll adjustment, more thrust must be applied to a 
 
 In a quadcopter, the main mechanical component is the frame. The frame is responsible for mounting and connecting all the components together. Frames differ in shapes, dimensions, and materials. A stiff frame is ideal for flight since this reduces warping and bending. The stiff material must not be too brittle since this can cause easier breakages during crashes. The frame must also be light in order to reduce the needed thrust. Heavier frames will need stronger motors. The material should also be able to minimize vibrations as this can damage electrical components. The frame can be broken down into the following: Centre plate, four arms, four motor brackets.
 
-The centre plate is where all of the electrical components are placed.
-The four arms connect to the centre plate (some components can be placed here too).
-The four motor brackets hold the motors on the arms. 
+<ul>
+  <li>The centre plate is where all of the electrical components are placed.</li>
+  <li>The four arms connect to the centre plate (some components can be placed here too).</li>
+  <li>The four motor brackets hold the motors on the arms.</li> 
+</ul>
 
 Common materials used for frames:
 
