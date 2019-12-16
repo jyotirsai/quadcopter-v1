@@ -41,3 +41,11 @@ In a quadcopter, the main mechanical component is the frame. The frame is respon
 The centre plate is where all of the electrical components are placed.
 The four arms connect to the centre plate (some components can be placed here too).
 The four motor brackets hold the motors on the arms. 
+
+Common materials used for frames:
+
+<ul>
+<li> Wood - The prominent benefit of using wood is the fact that it is very inexpensive and easy to replace. It will reduce build time. Also fairly rigid. However, it can be aesthetically unappealing </li>
+<li> Carbon Fiber - Very tough and extremely lightweight material, this will allow for better flight dynamics and less needed thrust. Expensive option. Best option. </li>
+<li> Plastic - Not as ideal since it tends to bend. 3D printing a frame can be useful for small builds. </li>  
+</ul>
