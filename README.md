@@ -122,5 +122,5 @@ Some features:
 Most ESC’s are controlled by onboard 32-bit processors running firmware called BLHeli_32 or KISS. 32 bit ESC’s can communicate with faster digital protocols and are capable of things like controlling LEDs, changing motor direction, and telemetry data.
 
 <p align="center">
-<img src="ESC.png" width="500px" height="250px">
+<img src="ESC.PNG" width="500px" height="250px">
 </p>
