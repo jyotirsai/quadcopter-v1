@@ -148,3 +148,75 @@ The flight controller is mounted to the frame with four equally spaced mounting 
 <p align="center">
 <img src="flightcontroller.png" width="300px" height="250px">
 </p>
+
+# PID 
+
+PID stands for Proportional, Integral, Derivative and is the control algorithm responsible for a quadcopter's stability.
+
+Tuning P, I, and D gains will increase the stability and responsiveness of quadcopters. If the quadcopter receives a 45 degree roll input, the quadcopter will roll back and forth around the 45 degree mark until it reaches 45 degrees exactly. PID control loops analyse the gyro and accelerometer data during this process and work to minimize the back and forth rolling until 45 degrees is reached. If the PID loop is well tuned, this process will happen almost instantaneously with minimal back and forth rolling. The P gain controls the responsiveness to stick inputs, a high P gain will result in the quadcopter quickly oscillating back and forth, a low P gain results in slow oscillation. The I gain controls quadcopter positioning during a time interval. I gain’s are useful for automatically resetting a quadcopter to a set angle after a disturbance such as wind. D gains are responsible for how much dampening occurs of the P gain. High D gain results in low visible oscillations. Low D gain means the back and forth oscillations will be visible.
+
+# Radio Transmitters & Receivers
+
+Transmitters and receivers operate each function on the quadcopter via a number of frequency channels.
+
+One channel is needed for throttle, another for yaw movement, another for pitch, another for rolling. A minimum of four channels is needed.
+
+When purchasing a transmitter, you need to determine what mode you prefer:
+
+<p align="center">
+<img src="radio.png" width="300px" height="250px">
+</p>
+
+2.4 GHz is the most popular transmitter frequency for RC, it also has the shortest antenna. A 2.4 GHz transmitter will only work with a 2.4 GHz receiver.
+
+TX protocols are a type of communication between radio transmitter and radio receiver.
+
+RX protocols are between radio receiver and flight controller.
+
+In most cases, in order for a receiver to be compatible with a transmitter it should have the same brand of RX and TX.
+
+Receivers and transmitters must be binded together first in order to work, more information about this should be in an instruction manual.
+
+Receiver antennas are usually soldered directly on the receiver main board. Usually, receivers come with two antennas and they should be kept at 90 degree angles from each other for best signal reception.
+
+# Batteries
+
+Larger batteries allow for longer flight time, but increase the weight of the quadcopter which means more power will be required from the motors.
+
+Lithium batteries are the most common battery used for quadcopters since they have a high energy density and high discharge capability. There are Lithium polymer (LiPo) and Lithium polymer high voltage (LiHV). LiPo cell has a fully charged voltage of 4.2 V. LiHV has a fully charged voltage of 4.35 V. LiPo has a resting voltage of 3.7 V. LiHV has a storage voltage of 3.8 V. LiHV will initially provide more power but abruptly drop in voltage when discharged. LiPo has more linear discharge. LiPo is more commonly used for quadcopters.
+
+A higher drone battery voltage allows the pack to provide more power without increasing the current. The battery pack voltage impacts the maximum motor speed. LiPo packs are commonly sold as 1S, 2S, 3S, 4S, etc where the digit before S stands for number of cells in that specific pack. More cells that are grouped together means more voltage for the battery pack. 4S LiPo’s are commonly used for quadcopters.
+
+<p align="center">
+<img src="battery-table.png" width="300px" height="250px">
+</p>
+
+Battery capacity is measured in mAh. A higher milliamp hour rating means that it will provide more flight time per charge. A 1300 mAh 4S pack will typically last three minutes of racing flight but depends on how it is flown.
+
+The C-Rating of a battery tells you how much current a battery can supply for a given charge cycle continuously. The higher the C-Rating, the more current the pack can continuously supply. If a battery is forced to supply more current than dictated by its C-Rating for a long time, this can cause excessive damage. High Kv motors require high C-rating batteries. 
+
+Maximum Safe Current Draw (mA) = Battery Capacity (mAh) * C-Rating
+
+This formula can be used to calculate the compatibility between different motors and ESC’s.
+
+“As an example, a 1300mAh 100C battery would have a safe continuous current draw of 130A (130,000mA). Dividing this number by four (as a quadcopter has four motors) it is apparent that 32.5A is the maximum current draw per motor that this battery can continuously supply.” From this information, it would be best to purchase an ESC capable of 30-35A. When purchasing a capable motor, it is a good idea to multiply the maximum current draw of the motors by 75%, and the resulting value should be less than or equal to 32.5 A.
+
+Yellow XT60 are common LiPo battery connectors used for 3S-6S batteries.
+
+Use a LiPo bag to prevent fires during storage and charge.
+
+# Power Distribution Board
+
+Responsible for distributing power to the components at the required voltages. 
+
+This is where the battery leads are connected to. 
+
+This part may not be necessary depending on the type of flight controller or ESC that is purchased, which can do these tasks instead.
+
+# Firmware
+
+Betaflight is the most commonly used flight control software and it supports many FC’s out there. It is used mainly for FPV flying and is not the best option for autonomous flight. Will support nearly all FC’s with at least STM32F3. Supports FrSky and also directs ESC’s. Can also control VTX and camera control settings through flight controller. Displays current and battery values directly to FPV feed. Numerous safety features.
+
+Ardupilot is the most popular autopilot firmware. Includes 3D waypoint navigation and a wide range of hardware and software support. 
+
+iNav is used for autonomous drone functions. Supports most FPV flight controllers. Used mainly for people with an FPV drone who want to add autonomous capabilities. Supports Return to Home with a predefined climb height, position hold, waypoints, follow me, and more features. 
