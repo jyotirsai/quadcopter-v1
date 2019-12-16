@@ -124,3 +124,27 @@ Most ESC’s are controlled by onboard 32-bit processors running firmware called
 <p align="center">
 <img src="ESC.PNG" width="500px" height="250px">
 </p>
+
+# Flight Controllers
+
+This controls the entire quadcopter.
+
+Communicates with ESC’s via signals to control the motor. 
+
+Usually packed with sensors (accelerometer, gyroscope, barometer). Accelerometer is used to measure linear acceleration. Gyroscopes measure angular acceleration. Barometer measures pressure.
+
+The flight controller receives signals from the onboard radio receiver for remote control.
+
+Controls most of the electronics aboard the quadcopter.
+
+All in one (AIO) flight controllers will also control power distribution and other features. A power distribution board (PDB) allows you to wire battery leads and ESC’s directly onto the flight controller (recommended). Battery eliminator circuit (BEC) can be embedded within flight controllers and are responsible for regulating voltages, they allow 3.3 V, 5 V, and 12 V power sources to be integrated into the board (recommended). BEC’s allow voltage sensitive components such as receivers and cameras to all be powered from the flight controller.
+
+Common microprocessors inside flight controllers include STM32 F1, F3, F4, and F7 chips. The higher the number after the F, the faster the microprocessor and the more functionality it will have. Flight controllers with an F4 or F7 is recommended since they can run the latest FC firmwares. The time it takes to read and respond to sensor inputs i.e the reading and response time is known as the gyro update frequency and PID loop frequency.
+
+Betaflight is the most common firmware used to manage and configure the flight controller.
+
+The flight controller is mounted to the frame with four equally spaced mounting holes.
+
+<p align="center">
+<img src="flightcontroller.png" width="500px" height="250px">
+</p>
