@@ -199,8 +199,6 @@ Maximum Safe Current Draw (mA) = Battery Capacity (mAh) * C-Rating
 
 This formula can be used to calculate the compatibility between different motors and ESC’s.
 
-“As an example, a 1300mAh 100C battery would have a safe continuous current draw of 130A (130,000mA). Dividing this number by four (as a quadcopter has four motors) it is apparent that 32.5A is the maximum current draw per motor that this battery can continuously supply.” From this information, it would be best to purchase an ESC capable of 30-35A. When purchasing a capable motor, it is a good idea to multiply the maximum current draw of the motors by 75%, and the resulting value should be less than or equal to 32.5 A.
-
 Yellow XT60 are common LiPo battery connectors used for 3S-6S batteries.
 
 Use a LiPo bag to prevent fires during storage and charge.
@@ -220,3 +218,31 @@ Betaflight is the most commonly used flight control software and it supports man
 Ardupilot is the most popular autopilot firmware. Includes 3D waypoint navigation and a wide range of hardware and software support. 
 
 iNav is used for autonomous drone functions. Supports most FPV flight controllers. Used mainly for people with an FPV drone who want to add autonomous capabilities. Supports Return to Home with a predefined climb height, position hold, waypoints, follow me, and more features. 
+
+# Resources / References
+
+Here are the websites I used to get all of the information for this repo:
+
+Oscar Liang - https://oscarliang.com/
+
+Oscar's website includes very detailed and up to date information on how to build a quadcopter, how to choose parts, and some common tips and tricks. Great resource for any drone enthusiasts and would highly recommend.
+
+https://dronebotworkshop.com/drone-index/
+
+Some explanation on quadcopter dynamics and parts. 
+
+http://dronenodes.com/how-to-build-a-drone/
+https://fpvfrenzy.com/build-a-quadcopter/
+https://en.wikipedia.org/wiki/Quadcopter
+http://andrew.gibiansky.com/blog/physics/quadcopter-dynamics/
+https://en.wikipedia.org/wiki/PID_controller
+
+
+# Online Guides
+
+https://myfirstdrone.com/blog/build-your-first-drone-mounting-the-electronics
+https://oscarliang.com/build-racing-drone-fpv-quadcopter/
+https://www.getfpv.com/learn/new-to-fpv-beginner/
+https://www.youtube.com/watch?v=K05UwsiqZ_E
+https://www.youtube.com/watch?v=kQ9FvNB9sNA
+https://www.youtube.com/watch?v=TOfY590X4OY
