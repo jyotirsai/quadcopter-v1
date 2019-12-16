@@ -55,3 +55,23 @@ Common materials used for frames:
 <li> Carbon Fiber - Very tough and extremely lightweight material, this will allow for better flight dynamics and less needed thrust. Expensive option. Best option. </li>
 <li> Plastic - Not as ideal since it tends to bend. 3D printing a frame can be useful for small builds. </li>  
 </ul>
+
+The size of a frame is usually measured as the longest distance from motor to motor in mm. Frames less than 150 mm are micro frames. 
+
+# Motors
+
+<p align="center">
+<img src="motor.gif" width="250px" height="250px">
+</p>
+
+In a DC motor, a spinning armature called the rotor is surrounded by stationary permanent magnets called the stator. The armature (rotor) contains an electromagnet, which creates a magnetic field when electricity is run through it. The generated magnetic field attracts and repels the magnets in the stator causing the armature to spin. In order to keep the armature spinning, the poles of the electromagnet must be changed, which is what the brushes are responsible for. Unfortunately, brushes create a number of inefficiencies such as wear and tear and speed reduction. 
+
+In a brushless DC motor, the permanent magnets are on the rotor and the electromagnets (called poles) are on the stator. A computer is then used to charge up the electromagnets as the shaft turns. The greater the number of poles the more precisely the motor can be controlled. Brushless motors have three wires and depending on their connections, can change the motor spin direction. Quadcopter motors have KV ratings which depicts the RPM per 1 volt applied to the motor. The larger the weight of the quadcopter, the lower the KV rating for the motors. For a lightweight and fast quadcopter, you would use a high KV motor for high rpm. For a heavier quadcopter, you would use a low KV motor for low rpm and more torque. Motor and propeller combinations should be able to generate twice the weight of the craft in thrust. The motor shaft diameter will determine the type and size of propellers.
+
+An identifying feature of a brushless motor is if you see three wires coming out.
+
+The size of a brushless motor is identified by a four-digit code that described the dimensions of the stator in mm. 
+
+<p align="center">
+<img src="brushless-motor.png" width="250px" height="250px">
+</p>
